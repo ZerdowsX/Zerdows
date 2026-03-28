@@ -56,7 +56,8 @@
     /* Карточки проектов */
     .cards-container {
       display: flex;
-      justify-content: center; /* центрируем единственную карточку */
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 20px;
       margin-top: 30px;
     }
@@ -163,6 +164,15 @@
         <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/5/54/Microsoft_Windows_XP_Logo.svg/250px-Microsoft_Windows_XP_Logo.svg.png" alt="WinXP">
         <br>
         <a href="PotsikInternet2k.exe" download class="download-button">Скачать</a>
+      </div>
+
+      <!-- Карточка 2 -->
+      <div class="card">
+        <h2>AIOS</h2>
+        <p>Операционная система имеющая консоль с командами.</p>
+        <img src="file:///C:/Users/Zerdows/Pictures/Camera%20Roll/AIOS.png" alt="AIOS">
+        <br>
+        <a href="Aios.iso" download class="download-button">Скачать</a>
       </div>
 
     </div>
